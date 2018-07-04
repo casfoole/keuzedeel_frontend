@@ -1,0 +1,135 @@
+.header-row{
+    background-color: #1e6abc;
+    height: 70px;
+}
+.header-row p{
+    color: floralwhite;
+    margin: 10px 0 0 100px;
+    font-size: 30px;
+}
+button{
+    color: black;
+    width: 150px;
+    border: solid black 1px;
+    margin: 1px 0 0 0;
+    height: 30px;
+}
+button:hover{
+    background-color: #BF99D8;
+}
+.periode1{
+    background-color: #0A246A;
+    height: 40px;
+}
+.container-row{
+    max-width: 800px;
+    margin-left: 0;
+}
+.text-right{
+    text-align: right;
+}
+.color-yellow{
+    background-color: #F4D76B;
+}
+.color-lightblue{
+    background-color: #C4D7F2;
+}
+.color-terques{
+    background-color: #ABC8C0;
+}
+.color-red{
+    background-color: #E26753;
+}
+.color-purple{
+    background-color: #BF99D8;
+}
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > th{
+    border:1px solid black;
+}
+table td{
+    width: 30%;
+}
+table.small-th{
+    width: 74%;
+}
+.not{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: black;
+}
+td .text{
+    display: none;
+    position: absolute;
+    max-width: 20em;
+    margin: 0 0 0 1em;
+}
+td p {
+    background-color: white;
+    border: solid black 1px;
+    padding: 5px 10px 5px 8px;
+}
+td:hover .text{
+    display: inline;
+}
+.uitleg{
+    height: 50px;
+    background-color: #BF99D8;
+    margin: 95px 20px 0 59%;
+    border: 1px solid black;
+}
+.inline{
+    display: inline-block;
+}
+.buttons-left{
+    float: left;
+    position: absolute;
+}
+.content-right{
+    float: left;
+    margin-left: 160px;
+}
+button:focus{
+    background-color: #BF99D8;
+}
+.container-row{
+    max-width: 800px;
+}
+.design-dropdown{
+    margin: 20px auto;
+}
+.header{
+    height: 65px;
+    background-color: #222222;
+    color: white;
+}
+img{
+    margin-top: -32px;
+    height: 65px;
+}
+.inline h4{
+    margin: 0 0 0 20px;
+    padding-top: 7px;
+}
+.inline p{
+    margin: 0 0 0 20px;
+}
+.center{
+    margin: 40px 15% 0 15%;
+}
+@media only screen and (max-width: 850px){
+    .buttons-left{
+        position: initial;
+        margin-bottom: 30px;
+        display: inline;
+    }
+    .center .content-right{
+        margin: 0 -30px 0 0;
+    }
+}

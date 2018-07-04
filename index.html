@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keuzedeel frontend</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="changeContent.js"></script>
+</head>
+<body>
+<header class="header">
+    <img src="images/ma_logo.png">
+    <div class="inline">
+        <h4>Opleidingstraject</h4>
+        <p>Leerplan 2018-2019</p>
+    </div>
+</header>
+<div class="container-row design-dropdown">
+<select class="form-control" id="fase" onchange="showcontent()">
+    <option>Kies Periode</option>
+    <option>Leerjaar 1 - Periode 1.1 - fase 1</option>
+    <option>Leerjaar 1 - Periode 1.2 - fase 1</option>
+    <option>Leerjaar 2 - Periode 1.3 - fase 2</option>
+    <option>Leerjaar 2 - Periode 1.4 - fase 2</option>
+    <option>Leerjaar 2 - Periode 2.1 - fase 2</option>
+    <option>Leerjaar 2 - Periode 2.2 - fase 3</option>
+    <option>Leerjaar 2 - Periode 2.3 - fase 3/4</option>
+    <option>Leerjaar 2 - Periode 2.4 - fase 3/4</option>
+    <option>Leerjaar 3 - Periode 3.1 - fase 3/4</option>
+    <option>Leerjaar 3 - Periode 3.2 - fase 3/4</option>
+    <option>Leerjaar 3 - Periode 3.3 - fase 5</option>
+    <option>Leerjaar 3 - Periode 3.4 - fase 5</option>
+</select>
+<br>
+<div id="content">
+    <table class="table table-bordered table-striped color-yellow">
+        <thead>
+        <tr>
+            <th colspan="2">Leerjaar 1 - Periode 1.1 - Oriëntatie</th>
+        </tr>
+        <tr>
+            <th>Vakken</th>
+            <th>Aantal uren per week</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Theoretisch programmeren
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>2-uren</td>
+        </tr>
+        <tr>
+            <td>Programmeren
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>8-uren</td>
+        </tr>
+        <tr>
+            <td>Project
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>6-uren</td>
+        </tr>
+        <tr>
+            <td>Werkveld orientatie
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>3-uren</td>
+        </tr>
+        <tr>
+            <td>Burgerschap
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>1-uren</td>
+        </tr>
+        <tr>
+            <td>Studieloopbaan begeleiding
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>1-uren</td>
+        </tr>
+        <tr>
+            <td>Nederlands
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>2-uren</td>
+        </tr>
+        <tr>
+            <td>Engels
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>1-uren</td>
+        </tr>
+        <tr>
+            <td>Rekenen
+                <div class="text"><p></p>
+                </div>
+            </td>
+            <td>2-uren</td>
+        </tr>
+        <tr>
+            <th>Totaal uren</th>
+            <th>26</th>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div style="height: 50px"></div>
+</div>
+<footer>
+   <p></p>
+</footer>
+</body>
+</html>
