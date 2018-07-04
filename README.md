@@ -5,4 +5,5 @@ Opdracht - het verduidelijken van het schema over welke lessen de klas krijgt va
 
 files - index.html
         style.css
-        changeContent.js
+        test.js
+        
